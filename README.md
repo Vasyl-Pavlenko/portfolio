@@ -4,10 +4,10 @@ Welcome to my personal portfolio website! This repository contains the code for 
 
 ## Table of Contents
 
-- [About](#about)
-- [Projects](#projects)
-- [Technologies](#technologies)
-- [Contact](#contact)
+- [About](https://portfolio-psi-teal-68.vercel.app/#about)
+- [Projects](https://portfolio-psi-teal-68.vercel.app/#projects)
+- [Technologies](https://portfolio-psi-teal-68.vercel.app/#technologies)
+- [Contact](https://portfolio-psi-teal-68.vercel.app/#contact)
 
 ## About
 
