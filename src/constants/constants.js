@@ -10,7 +10,7 @@ export const projects = [
   },
   {
     title: 'Bank App',
-    description: "Learn advanced React & JavaScript topics while building a webshop app with Stripe for card transactions.",
+    description: "Learn advanced React and CSS topics while building a bank application.",
     image: '../images/bank.webp',
     tags: ['React', 'JavaScript', 'Tailwind'],
     source: 'https://github.com/Vasyl-Pavlenko/bank',
@@ -28,7 +28,7 @@ export const projects = [
   },
   {
     title: 'GPT-3 Landing',
-    description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
+    description: "Single Page Application for DPT-3 presentation",
     image: '../images/gpt-3.webp',
     tags: ['React', 'HTML', 'CSS', 'BEM'],
     source: 'https://github.com/Vasyl-Pavlenko/ui_ux_gpt3/tree/main',
@@ -55,7 +55,7 @@ export const projects = [
   },
   {
     title: 'Markdown',
-    description: "Simple markdown converter",
+    description: "Simple markdown text converter",
     image: '../images/Markdown.webp',
     tags: ['React'],
     source: 'https://github.com/Vasyl-Pavlenko/markdown-converter',
@@ -64,7 +64,7 @@ export const projects = [
   },
   {
     title: 'Simple random quote machine',
-    description: "Dekstop calcutor with react",
+    description: "Simple random quote machine with pure React",
     image: '../images/Quotes.webp',
     tags: ['React', 'CSS'],
     source: 'https://github.com/Vasyl-Pavlenko/quotes-generator',
@@ -82,7 +82,7 @@ export const projects = [
   },
   {
     title: 'Drum Machine',
-    description: "Dekstop calcutor has been written with React",
+    description: "Drum machine with few features",
     image: '../images/Drum.webp',
     tags: ['React', 'CSS'],
     source: 'https://github.com/Vasyl-Pavlenko/drum-machine',

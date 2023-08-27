@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
 export const Img = styled.img`
-  width:100%;
-  height:100%;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
   overflow: hidden;
 `
@@ -43,6 +43,7 @@ export const HeaderThree = styled.h3`
   letter-spacing: 2px;
   color: #9cc9e3;
   padding: .5rem 0;
+  margin-top: 15px;
   font-size: ${(props) => props.title ? '3rem' : '2rem'};
 `;
 
@@ -69,11 +70,10 @@ export const CardInfo = styled.p`
   padding: 0 50px;
   margin-bottom: 15px;
   color: #e4e6e7;
-  font-style: 2rem;
+  font-style: 2em;
   line-height: 24px;
-  text-align: justify;
   @media ${(props) => props.theme.breakpoints.sm} {
-    padding:.3rem
+    padding:  0.3rem
   
 }
 `;
