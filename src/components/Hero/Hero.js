@@ -25,7 +25,7 @@ const Hero = (props) => (
         </SectionText>
         
         <Link
-          href="https://drive.google.com/file/d/1Sd0SyaO7Z6s2Hw4D0_It2gKbM0uRp-ZX/view?usp=sharing"
+          href="https://drive.google.com/file/d/108YAsy6Tg71lV6Atg1zYTcbsc4rZwS9L/view?usp=sharing"
           target="_blank"
         >
           <Button>

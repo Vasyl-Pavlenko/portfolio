@@ -9,7 +9,7 @@ const Header = () => (
   <Container>
     <Div1>
       <Link
-        href="https://drive.google.com/file/d/1Sd0SyaO7Z6s2Hw4D0_It2gKbM0uRp-ZX/view?usp=sharing"
+        href="#projects"
         legacyBehavior>
         <a 
           style={{ 
