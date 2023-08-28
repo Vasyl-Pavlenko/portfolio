@@ -18,8 +18,8 @@ export const projects = [
     id: 1,
   },
   {
-    title: 'Restourant App',
-    description: "Single Page Application for restourant",
+    title: 'Restaurant App',
+    description: "Single Page Application for restaurant",
     image: '../images/restourant.webp',
     tags: ['React', 'HTML', 'CSS', 'BEM'],
     source: 'https://github.com/Vasyl-Pavlenko/restourant',
@@ -28,7 +28,7 @@ export const projects = [
   },
   {
     title: 'GPT-3 Landing',
-    description: "Single Page Application for DPT-3 presentation",
+    description: "Single Page Application for GPT-3 presentation",
     image: '../images/gpt-3.webp',
     tags: ['React', 'HTML', 'CSS', 'BEM'],
     source: 'https://github.com/Vasyl-Pavlenko/ui_ux_gpt3/tree/main',

@@ -9,7 +9,7 @@ const Header = () => (
   <Container>
     <Div1>
       <Link
-        href="https://www.canva.com/design/DAFgjcrrYR4/N3lozjwAvFEjXLFAZFtOlw/edit?utm_content=DAFgjcrrYR4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+        href="https://drive.google.com/file/d/1Sd0SyaO7Z6s2Hw4D0_It2gKbM0uRp-ZX/view?usp=sharing"
         legacyBehavior>
         <a 
           style={{ 
