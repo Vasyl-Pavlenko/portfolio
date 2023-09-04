@@ -1,5 +1,14 @@
 export const projects = [
   {
+    title: 'MY Blog',
+    description: "Build a Full Stack MERN Application for posting interesting events in your life. Learn React, Node.js, Express & MongoDB.",
+    image: '../images/next-blog.webp',
+    tags: ['MongoDB', 'React', 'Next'],
+    source: 'https://github.com/Vasyl-Pavlenko/next-blog',
+    visit: 'https://blog-vasyl-pavlenko.vercel.app/',
+    id: 13,
+  },
+  {
     title: 'MERN Blog',
     description: "Build a Full Stack MERN Application for posting interesting events in your life. Learn React, Node.js, Express & MongoDB.",
     image: '../images/MERN.webp',
