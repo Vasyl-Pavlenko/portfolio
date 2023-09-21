@@ -18,12 +18,12 @@ row-gap: 3rem;
   display: flex;
   flex-direction: column;
   padding: 2rem;
-  padding-bottom: 0;
+  padding-bottom: 10px;
 }
 `
 
 export const BlogCard = styled.div`
-  border-radius: 10px;
+  border-radius: 25px;
   box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
   text-align: center;
   width: 400px;
@@ -73,7 +73,7 @@ export const CardInfo = styled.p`
   font-style: 2em;
   line-height: 24px;
   @media ${(props) => props.theme.breakpoints.sm} {
-    padding:  0.3rem
+    padding: 0.3rem
   
 }
 `;

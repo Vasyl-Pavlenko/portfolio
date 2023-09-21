@@ -1,5 +1,32 @@
 export const projects = [
   {
+    title: 'Cars Hub',
+    description: "Car Rental App: Next.js SSR, React, Tailwind CSS. Find & rent cars, search by make, model, year, fuel type using IMAGIN.studio API.",
+    image: '../images/CarsHub.webp',
+    tags: ['TypeScript', 'React', 'Next', 'Tailwind'],
+    source: 'https://github.com/Vasyl-Pavlenko/car-hub',
+    visit: 'https://car-hub-rouge.vercel.app/',
+    id: 16,
+  },
+  {
+    title: 'Summarizer',
+    description: "OpenAI Article Summarizer: Save time with ReactJS, RTK Query, Tailwind CSS, and GPT-4. Get article summaries instantly.",
+    image: '../images/Sumz.webp',
+    tags: ['React', 'Tailwind', 'RTK Query'],
+    source: 'https://github.com/Vasyl-Pavlenko/summarizer',
+    visit: 'https://summarizer-sigma.vercel.app/',
+    id: 15,
+  },
+  {
+    title: 'Promtopia',
+    description: "Web platform for creative writers to share, create, and discuss prompts, encouraging collaboration within a writing community.",
+    image: '../images/Promtopia.webp',
+    tags: ['React', 'Next', 'Tailwind', 'MongoDB'],
+    source: 'https://github.com/Vasyl-Pavlenko/promtopia',
+    visit: 'https://promtopia-eight.vercel.app/',
+    id: 14,
+  },
+  {
     title: 'MY Blog',
     description: "Build a Full Stack MERN Application for posting interesting events in your life. Learn React, Node.js, Express & MongoDB.",
     image: '../images/next-blog.webp',
