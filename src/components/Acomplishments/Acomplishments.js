@@ -4,7 +4,7 @@ import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalCompon
 import { Box, Boxes, BoxNum, BoxText } from './AcomplishmentsStyles';
 
 const data = [
-  { title: '10 +', description: 'Open Source Github Projects' },
+  { title: '30 +', description: 'Open Source Github Projects' },
   {
     title: 'Completed ITG Program', description: 'Successfully completed the ITG Program, a comprehensive and intensive  frontend development program, within six months, mastering the entire curriculum and gaining expertise in React, Redux, Typescript, and other web development technologies.'},
   {

@@ -5,7 +5,7 @@ import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponent
 import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
 
-const Hero = (props) => (
+const Hero = () => (
   <>
     <Section row nopadding>
       <LeftSection>
@@ -21,7 +21,7 @@ const Hero = (props) => (
         </SectionTitle>
 
         <SectionText>
-          Experienced Frontend Developer specializing in React applications, with a diverse background in law, sales, and customer service, bringing a unique perspective to IT projects.
+          Experienced Frontend Developer with a diverse background in law, sales, and customer service, offering a unique perspective to React applications and IT projects.
         </SectionText>
         
         <Link

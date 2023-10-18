@@ -32,7 +32,7 @@ const Footer = () => {
       <SocialIconsContainer>
         <CompanyContainer>
           <Slogan>
-            You can everything...
+            You can achieve anything...
           </Slogan>
         </CompanyContainer>
 

@@ -51,17 +51,7 @@ const Timeline = () => {
       </SectionTitle>
 
       <SectionText>
-        As a skilled Frontend Developer, I specialize in building
-        robust React applications and collaborating with cross-functional teams. My expertise in web development is
-        bolstered by my proficiency in JavaScript, Typescript,
-        HTML5, and CSS3, as well as my hands-on experience
-        with REST API, Git/Github, and Figma. Additionally, my
-        diverse background, which includes law, sales
-        management, and customer service, brings a unique
-        perspective to my work in IT. With my previous
-        experience, technical skills and an Upper-Intermediate
-        English speaker I am well-equipped to tackle any
-        challenge in the field of Frontend Development.
+        As a skilled Frontend Developer, I specialize in building robust React applications and collaborating with cross-functional teams. My proficiency extends to a wide range of technologies, including Typescript, JavaScript, React, Redux, React Native, Vue, Angular, Node.js, Express.js, Next.js, HTML5, CSS3, Sass (SCSS), BEM, Bootstrap, Bulma, Tailwind, Fetch, REST API, AJAX, SQL, MongoDB, GraphQL and Figma. I'm well-versed in Git/Github, VS Code, Chrome Developer Tools (including React and Redux), NPM and Webpack.
       </SectionText>
 
       <CarouselContainer
@@ -126,7 +116,7 @@ const Timeline = () => {
       </CarouselContainer>
 
       <CarouselButtons>
-        {TimeLineData.map((item, index) => {
+        {TimeLineData.map((_, index) => {
           return (
             <CarouselButton
               key={index}

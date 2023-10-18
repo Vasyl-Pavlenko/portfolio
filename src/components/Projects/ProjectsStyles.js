@@ -87,9 +87,9 @@ export const UtilityList = styled.ul`
 `;
 
 export const ExternalLinks = styled.a`
-color:#d4c0c0;
+color: #d4c0c0;
 font-size: 1.6rem;
-padding:1rem 1.5rem;
+padding: 1rem 1.5rem;
 background: #6b3030;
 border-radius: 15px;
 transition: 0.5s;
@@ -107,3 +107,33 @@ export const Tag = styled.li`
 color: #d8bfbf;
 font-size: 1.5rem;
 `
+export const ShowMoreButton = styled.button`
+  color: #d4c0c0;
+  font-size: 1.6rem;
+  padding: 1rem 1.5rem;
+  background: #6b3030;
+  border-radius: 15px;
+  border: none;
+  margin: 20px auto;
+  width: 14rem;
+  cursor: pointer;
+  transition: 0.5s;
+  &:hover {
+    background: #801414;
+  }
+`;
+
+export const Loader = styled.div`
+  margin: 20px auto;
+  width: 80px; 
+  height: 80px;
+  border: 8px solid #d8bfbf;
+  border-top: 8px solid #6b3030;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+`;

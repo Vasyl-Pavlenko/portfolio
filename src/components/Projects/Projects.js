@@ -1,63 +1,108 @@
-import React from 'react';
+import { useEffect, useState } from 'react';
 
-import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ProjectsStyles';
+import {
+  BlogCard,
+  CardInfo,
+  ExternalLinks,
+  GridContainer,
+  HeaderThree,
+  Hr,
+  Tag,
+  TagList,
+  TitleContent,
+  UtilityList,
+  Img,
+  Loader,
+  ShowMoreButton
+} from './ProjectsStyles';
+
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 import { projects } from '../../constants/constants';
 
-const Projects = () => (
-  <Section id="projects">
-    <SectionDivider />
+const initialProjectsToShow = 4;
+const projectsToAdd = 4;
 
-    <SectionTitle main>
-      Projects
-    </SectionTitle>
+const Projects = () => {
+  const [projectsToShow, setProjectsToShow] = useState(initialProjectsToShow);
+  const [isLoading, setIsloading] = useState(false);
 
-    <GridContainer>
-      {projects.map(({ id, title, description, image, tags, visit, source }) => {
-        return (
-          <BlogCard key={id}>
-            <Img src={image} />
+  const handleShowMore = () => {
+    setProjectsToShow(projectsToShow + projectsToAdd);
+  };
 
-            <TitleContent>
-              <HeaderThree title>
-                {title}
-              </HeaderThree>
+  const projectsToDisplay = projects.slice(0, projectsToShow);
 
-              <Hr />
-            </TitleContent>
+  useEffect(() => {
+    setIsloading(true); 
+    setTimeout(() => {
+      setIsloading(false);
+    }, 1000);
+  }, [projectsToShow]);
 
-            <CardInfo className="card-info">
-              {description}
-            </CardInfo>
+  return (
+    <Section id="projects">
+      <SectionDivider />
 
-            <div>
-              <TitleContent>
-                Stack
-              </TitleContent>
+      <SectionTitle main>
+        Projects
+      </SectionTitle>
+        <GridContainer>
+          {projectsToDisplay.map(({ id, title, description, image, tags, visit, source }) => {
+            return (
+              <BlogCard key={id}>
+                <Img src={image} />
 
-              <TagList>
-                {tags.map((tag, index) => {
-                  return <Tag key={index}>
-                    {tag}
-                  </Tag>;
-                })}
-              </TagList>
-            </div>
+                <TitleContent>
+                  <HeaderThree title>
+                    {title}
+                  </HeaderThree>
 
-            <UtilityList>
-              <ExternalLinks href={source}>
-                Code
-              </ExternalLinks>
+                  <Hr />
+                </TitleContent>
 
-              <ExternalLinks href={visit}>
-                Demo
-              </ExternalLinks>
-            </UtilityList>
-          </BlogCard>
-        );
-      })}
-    </GridContainer>
-  </Section>
-);
+                <CardInfo className="card-info">
+                  {description}
+                </CardInfo>
+
+                <div>
+                  <TitleContent>
+                    Stack
+                  </TitleContent>
+
+                  <TagList>
+                    {tags.map((tag, index) => {
+                      return <Tag key={index}>
+                        {tag}
+                      </Tag>;
+                    })}
+                  </TagList>
+                </div>
+
+                <UtilityList>
+                  <ExternalLinks href={source}>
+                    Code
+                  </ExternalLinks>
+
+                  <ExternalLinks href={visit}>
+                    Demo
+                  </ExternalLinks>
+                </UtilityList>
+              </BlogCard>
+            );
+          })}
+      </GridContainer>
+      
+      {isLoading ? (
+        <Loader />
+      ) : (
+        projectsToShow < projects.length && (
+          <ShowMoreButton onClick={handleShowMore}>
+            Show More
+          </ShowMoreButton>
+        )
+      )}
+    </Section>
+  )
+};
 
 export default Projects;

@@ -32,7 +32,7 @@ const Technologies = () => (
             
             <br />
 
-            React and React Native
+            React and Redux
 
             <br />
 
