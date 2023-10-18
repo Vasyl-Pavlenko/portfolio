@@ -38,4 +38,4 @@ I have experience working with a range of technologies in the web development wo
 
 - **EMAIL**: vasyl.pavlenko.dev@gmail.com
 
-You can find more about me and my work on my [Portfolio]([https://v1-lac.vercel.app/])
+You can find more about me and my work on my [Portfolio](https://v1-lac.vercel.app/)
