@@ -13,7 +13,7 @@ Welcome to my personal portfolio website! This repository contains the code for 
 
 I am an experienced frontend developer specializing in building modern and responsive web applications using technologies like React, JavaScript, and CSS. With a diverse background in law, sales, and customer service, I bring a unique perspective to my work in the field of IT.
 
-Learn more about me on my [Portfolio]([https://v1-lac.vercel.app/]).
+Learn more about me on my [Portfolio](https://v1-lac.vercel.app/)
 
 
 ## Technologies
